@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Con CSS</title>
+    <style>
+        /**
+            define estilo por clase
+        */
+        .texto {
+            color: blue;
+        }
+        /**
+            define estilo por etiqueta html
+        */
+        p {
+           font-style: italic; 
+        }
+        .conborde {
+            border: 5px;
+            border-style: solid;
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        esto no va a aparecer en el navegador
+    -->
+
+    <!-- primera forma de aplicar estilos-->
+
+    <p style="color: orangered; font-size: larger;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure culpa adipisci consequatur. Dolorem, non tempore.</p>
+
+    <!-- segunda forma de aplicar estilos -->
+
+    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, porro. Veniam est voluptatibus aliquid libero.</p>
+
+    <p class="conborde">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, porro. Veniam est voluptatibus aliquid libero.</p>
+
+    <h4 class="conborde">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, porro. Veniam est voluptatibus aliquid libero.</h4>
+
+</body>
+</html>
